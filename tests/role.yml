@@ -23,4 +23,4 @@
           - forwarded.example.org
 
   roles:
-    - ansible-role-bind
+    - { role: resmo.bind }
