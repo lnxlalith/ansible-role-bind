@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: all
   vars:
     bind_config_master_zones:
       - name: example.com
