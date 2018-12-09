@@ -23,4 +23,8 @@
           - forwarded.example.org
 
   roles:
-    - { ansible-role-bind }
+    - ansible-role-bind
+   
+  tasks:
+    - name: tests
+      include_tasks: main.yml
